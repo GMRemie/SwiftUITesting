@@ -13,6 +13,7 @@
 		D4216A5223F0B633004EF224 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4216A5123F0B633004EF224 /* Assets.xcassets */; };
 		D4216A5523F0B633004EF224 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4216A5423F0B633004EF224 /* Preview Assets.xcassets */; };
 		D4216A5823F0B633004EF224 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4216A5623F0B633004EF224 /* LaunchScreen.storyboard */; };
+		D4216A6023F0BC2B004EF224 /* ContentTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4216A5F23F0BC2B004EF224 /* ContentTab.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		D4216A5423F0B633004EF224 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D4216A5723F0B633004EF224 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D4216A5923F0B633004EF224 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4216A5F23F0BC2B004EF224 /* ContentTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentTab.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				D4216A5623F0B633004EF224 /* LaunchScreen.storyboard */,
 				D4216A5923F0B633004EF224 /* Info.plist */,
 				D4216A5323F0B633004EF224 /* Preview Content */,
+				D4216A5F23F0BC2B004EF224 /* ContentTab.swift */,
 			);
 			path = SwiftUITesting;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4216A4C23F0B62C004EF224 /* AppDelegate.swift in Sources */,
+				D4216A6023F0BC2B004EF224 /* ContentTab.swift in Sources */,
 				D4216A4E23F0B62C004EF224 /* SceneDelegate.swift in Sources */,
 				D4216A5023F0B62D004EF224 /* ContentView.swift in Sources */,
 			);

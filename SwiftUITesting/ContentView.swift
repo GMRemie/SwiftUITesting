@@ -8,11 +8,41 @@
 
 import SwiftUI
 
+
+
 struct ContentView: View {
+        
+    
+    
     var body: some View {
-        Text("Hello World")
+        
+        NavigationView {
+            
+            VStack {
+                List{
+                    ForEach(1...5, id: \.self) { key in
+                        Text("\(key)")
+                    }
+                }
+                    Text("Second Testing")
+                
+                .padding()
+                .navigationBarTitle("Testing")
+            }
+        }
+        
+        
     }
+
+
+
 }
+
+
+
+
+
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
